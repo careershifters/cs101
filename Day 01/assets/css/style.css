@@ -1,0 +1,9 @@
+.nav-link {
+  /* property: value; */
+  text-transform: uppercase;
+}
+
+.html-tag {
+  color: red;
+  background-color: lightsteelblue;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header__top {
+  background-color: #020e29;
+  /*
+  shorhand for margin and padding:
+    margin: 0; // top right bottom left
+    margin: 0 0; // top-bottom left-right
+    margin: 0 0 0; // top left-right bottom
+    margin: 0 0 0 0; // top right bottom left
+  */
+}
+
+.header__top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top button {
+  border: none;
+  padding: 20px 15px;
+  cursor: pointer;
+  background-color: #fe5e15;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header__info {
+  display: flex;
+  color: #d5d5d5;
+  font-size: 15px;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+/* PSEUDOCODE */
+
+/* width = content + margin-left + margin-right + padding-left + padding-right + border-left + border-right */
+
+/* .lorem,
+.ipsum {
+  float: left;
+}
+
+.lorem {
+  width: calc(50% - 110px);
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 5px solid red;
+  background-color: #000;
+  color: #fff;
+}
+
+.ipsum {
+  width: 50%;
+} */
+
+footer {
+  background-color: yellow;
+}
