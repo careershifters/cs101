@@ -1,0 +1,26 @@
+.features {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.features div {
+  /* flex-basis: 25%; */
+  /* flex: 0 1 auto; */
+  /* flex-grow: 0; */
+  /* flex-shrink: 1; */
+  /* flex-basis: 900px; */
+  background-color: black;
+  color: white;
+}
+
+.features div:first-child {
+  /* flex-grow: 2; */
+  /* flex-basis: 50%; */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  grid-column: 1 / span 2;
+}
